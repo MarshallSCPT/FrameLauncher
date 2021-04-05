@@ -12,3 +12,6 @@ This is not a cheat, this launcher was created for educational purposes only, I 
 ### Features
 - Remote server connection (for possible updates)
 - Check existence of files
+
+### My self discord:
+- Capetalista#3310
