@@ -18,6 +18,15 @@ Public Class Form1
                 End If
         End Select
     End Sub
+
+    ' Constante do botão fechar
+    Private Const WM_CLOSE As Integer = CInt(&H10)
+
+
+    Private Function Form1() As Boolean
+        Throw New NotImplementedException()
+    End Function
+
     Public Property CSharpImpl As Object
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -151,6 +160,14 @@ Public Class Form1
     End Sub
 
     Private Sub GunaControlBox1_Click(sender As Object, e As EventArgs) Handles GunaControlBox1.Click
-        End
+
+    End Sub
+
+    Private Sub Form1_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        If MsgBox("Deseja mesmo sair?", vbYesNo + vbQuestion, "Sair") = vbYes Then
+            End
+        Else
+            e.Cancel = True
+        End If
     End Sub
 End Class

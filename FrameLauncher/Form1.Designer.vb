@@ -169,6 +169,7 @@ Partial Class Form1
         Me.GunaLabel1.AutoSize = True
         Me.GunaLabel1.BackColor = System.Drawing.Color.Transparent
         Me.GunaLabel1.Font = New System.Drawing.Font("Segoe UI", 8.0!)
+        Me.GunaLabel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(156, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(188, Byte), Integer))
         Me.GunaLabel1.Location = New System.Drawing.Point(172, 505)
         Me.GunaLabel1.Name = "GunaLabel1"
         Me.GunaLabel1.Size = New System.Drawing.Size(153, 13)
@@ -178,7 +179,9 @@ Partial Class Form1
         'GunaLabel3
         '
         Me.GunaLabel3.AutoSize = True
+        Me.GunaLabel3.BackColor = System.Drawing.Color.Transparent
         Me.GunaLabel3.Font = New System.Drawing.Font("Segoe UI Semibold", 11.0!, System.Drawing.FontStyle.Bold)
+        Me.GunaLabel3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(156, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(188, Byte), Integer))
         Me.GunaLabel3.Location = New System.Drawing.Point(207, 105)
         Me.GunaLabel3.Name = "GunaLabel3"
         Me.GunaLabel3.Size = New System.Drawing.Size(83, 20)
@@ -201,6 +204,7 @@ Partial Class Form1
         '
         Me.GunaLabel2.AutoSize = True
         Me.GunaLabel2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.GunaLabel2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(156, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(188, Byte), Integer))
         Me.GunaLabel2.Location = New System.Drawing.Point(141, 479)
         Me.GunaLabel2.Name = "GunaLabel2"
         Me.GunaLabel2.Size = New System.Drawing.Size(84, 15)

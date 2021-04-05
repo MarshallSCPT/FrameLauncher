@@ -24,13 +24,13 @@ Partial Class Install
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Install))
         Me.GunaPanel1 = New Guna.UI.WinForms.GunaPanel()
+        Me.GunaLabel4 = New Guna.UI.WinForms.GunaLabel()
         Me.GunaLabel3 = New Guna.UI.WinForms.GunaLabel()
         Me.PathProgress = New Guna.UI.WinForms.GunaProgressBar()
         Me.GunaLabel2 = New Guna.UI.WinForms.GunaLabel()
         Me.GunaControlBox1 = New Guna.UI.WinForms.GunaControlBox()
         Me.GunaLabel1 = New Guna.UI.WinForms.GunaLabel()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.GunaLabel4 = New Guna.UI.WinForms.GunaLabel()
         Me.GunaPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -47,10 +47,23 @@ Partial Class Install
         Me.GunaPanel1.Size = New System.Drawing.Size(399, 190)
         Me.GunaPanel1.TabIndex = 0
         '
+        'GunaLabel4
+        '
+        Me.GunaLabel4.AutoSize = True
+        Me.GunaLabel4.BackColor = System.Drawing.Color.Transparent
+        Me.GunaLabel4.Font = New System.Drawing.Font("Segoe UI", 8.0!)
+        Me.GunaLabel4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(156, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(188, Byte), Integer))
+        Me.GunaLabel4.Location = New System.Drawing.Point(123, 170)
+        Me.GunaLabel4.Name = "GunaLabel4"
+        Me.GunaLabel4.Size = New System.Drawing.Size(153, 13)
+        Me.GunaLabel4.TabIndex = 8
+        Me.GunaLabel4.Text = "Created by Capetalista#3310"
+        '
         'GunaLabel3
         '
         Me.GunaLabel3.AutoSize = True
         Me.GunaLabel3.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.GunaLabel3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(156, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(188, Byte), Integer))
         Me.GunaLabel3.Location = New System.Drawing.Point(70, 123)
         Me.GunaLabel3.Name = "GunaLabel3"
         Me.GunaLabel3.Size = New System.Drawing.Size(34, 15)
@@ -73,6 +86,7 @@ Partial Class Install
         '
         Me.GunaLabel2.AutoSize = True
         Me.GunaLabel2.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaLabel2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(156, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(188, Byte), Integer))
         Me.GunaLabel2.Location = New System.Drawing.Point(123, 87)
         Me.GunaLabel2.Name = "GunaLabel2"
         Me.GunaLabel2.Size = New System.Drawing.Size(153, 20)
@@ -100,6 +114,7 @@ Partial Class Install
         '
         Me.GunaLabel1.AutoSize = True
         Me.GunaLabel1.Font = New System.Drawing.Font("Segoe UI Semibold", 14.0!, System.Drawing.FontStyle.Bold)
+        Me.GunaLabel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(156, Byte), Integer), CType(CType(165, Byte), Integer), CType(CType(188, Byte), Integer))
         Me.GunaLabel1.Location = New System.Drawing.Point(127, 37)
         Me.GunaLabel1.Name = "GunaLabel1"
         Me.GunaLabel1.Size = New System.Drawing.Size(144, 25)
@@ -114,17 +129,6 @@ Partial Class Install
         Me.FlowLayoutPanel1.Size = New System.Drawing.Size(399, 14)
         Me.FlowLayoutPanel1.TabIndex = 1
         Me.FlowLayoutPanel1.TabStop = True
-        '
-        'GunaLabel4
-        '
-        Me.GunaLabel4.AutoSize = True
-        Me.GunaLabel4.BackColor = System.Drawing.Color.Transparent
-        Me.GunaLabel4.Font = New System.Drawing.Font("Segoe UI", 8.0!)
-        Me.GunaLabel4.Location = New System.Drawing.Point(123, 170)
-        Me.GunaLabel4.Name = "GunaLabel4"
-        Me.GunaLabel4.Size = New System.Drawing.Size(153, 13)
-        Me.GunaLabel4.TabIndex = 8
-        Me.GunaLabel4.Text = "Created by Capetalista#3310"
         '
         'Install
         '
