@@ -27,7 +27,7 @@ Public Class Install
 
 
         Try
-            System.IO.Directory.Delete(Application.StartupPath & "\FLSettings", True)
+    System.IO.Directory.Delete(Application.StartupPath & "\FLSettings\Image", True)
         Catch
 
         End Try
