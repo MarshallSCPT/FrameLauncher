@@ -10,5 +10,5 @@ This is not a cheat, this launcher was created for educational purposes only, I 
 3. Run the FrameLauncher
 
 ### Features
-- Update
+- Remote server connection (for possible updates)
 - Check existence of files
